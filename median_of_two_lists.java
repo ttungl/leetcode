@@ -1,4 +1,7 @@
 // https://leetcode.com/problems/median-of-two-sorted-arrays/
+// Use quicksort, instead of bubble sort. 
+// Time complexity of quicksort's average case is O(n log n), 
+// while this takes O(n^2) in bubble sort.
 
 public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
