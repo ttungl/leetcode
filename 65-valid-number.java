@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/valid-number/
 // #65
+// Note: trim() is used to return a copy of the string \
+//       without leading and trailing whitespaces.
 
 public class Solution {
     public boolean isNumber(String s) {
