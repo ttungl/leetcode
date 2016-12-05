@@ -1,4 +1,10 @@
 // https://leetcode.com/contest/leetcode-weekly-contest-11/problems/count-the-repetitions/
+// Input:
+// s1="acb", n1=4
+// s2="ab", n2=2
+
+// Return:
+// 2
 
 public class Solution {
     public int getMaxRepetitions(String s1, int n1, String s2, int n2) {
