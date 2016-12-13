@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/factorial-trailing-zeroes/
-
 // A trailing zero is always produced by prime factors 2 and 5.
 // number of 2s in prime factors is always more than or equal to the number of 5s.
 // Thus, only count 5s.
