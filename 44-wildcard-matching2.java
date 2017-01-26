@@ -9,7 +9,7 @@ public class Solution {
     	// Check two strings, if asterisk "*" is detected in p,
     	// mark both indices of strings s and p at the
     	// current positions. Then, try to match the 
-    	// other part of string p from asterisk position.
+    	// other part of string p along with s from asterisk position.
     	while(i<slen){
     		if (j<plen && (p.charAt(j) == '?' || p.charAt(j) == s.charAt(i))){
     			i++;
