@@ -4,8 +4,8 @@ public class Solution {
     public boolean isMatch(String s, String p){
 
     	// init params
-    	int slen=s.length()+1, plen=p.length()+1;
-    	int i=1, j=1, sMarkIdx=0, asterMark=0; 
+    	int slen=s.length(), plen=p.length();
+    	int i=0, j=0, sMarkIdx=-1, asterMark=-1; 
 
     	// Check two strings, if asterisk "*" is detected in p,
     	// mark both indices of strings s and p at the
